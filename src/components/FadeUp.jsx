@@ -1,7 +1,7 @@
 // components/FadeUp.js
 import { motion } from "framer-motion";
 
-const FadeUp = ({ children, duration = 2, delay = 0.3 }) => {
+const FadeUp = ({ children, duration = 1.2, delay = 0.3 }) => {
   return (
     <motion.div
       initial={{ opacity: 0, y: 20 }}

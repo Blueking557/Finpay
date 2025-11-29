@@ -1,7 +1,7 @@
 // components/FadeSide.js
 import { motion } from "framer-motion";
 
-const FadeSide = ({ children, duration = 2, delay = 0.3, direction = "left" }) => {
+const FadeSide = ({ children, duration = 1.2, delay = 0.3, direction = "left" }) => {
   const xValue = direction === "left" ? -20 : 20;
 
   return (
